@@ -1,0 +1,62 @@
+@media screen and (max-width: 900px){
+    body > #mainDiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    body > #mainDiv > .mainContent{
+        display: flex;
+    }
+    .cakeOrderForm> form > fieldset{
+        width: 69%;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 700px){
+    body > section.additionalContent{
+       flex-direction: column;
+       height: 800px;
+       justify-content: center;
+       align-items: center;
+        }
+    body > section.additionalContent > h2{
+        font-size: 2.4em;
+        margin: unset;
+        padding: 1em;
+        
+    }
+    body > section.additionalContent > .aside1{
+        width: 50%;
+        height: 300px;
+    }
+    body > section.additionalContent > .aside2{
+        width: 50%;
+        height:300px;
+    }
+    body > .cakeOrderForm > form > fieldset{
+        width: 46%;
+        font-size: 0.8em;
+    }
+    
+    
+}
+@media screen and (max-width:500px)  {
+    #mainHeadofPage > h1{
+        font-size: 2em;
+    }
+    #mainDiv > .mainContent{
+        width: 100%;
+    }
+    #mainDiv > .mainContent> p{
+        font-size: 1.8em;
+    }
+    body > section.cakeOrderForm > form > fieldset{
+        width: 63%;
+        font-size: 0.9em;    
+    }
+    body > section.cakeOrderForm > form > div > button{
+        font-size: 1em;
+    }
+
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./Styles/reset.css" />
+    <link rel="stylesheet" href="./Styles/indexstyles.css" />
+    <link rel="stylesheet" href="./Styles/responsivestyle.css" />
+    <script src="./js/main.js" defer></script>
+    <title>AB Bakery</title>
+  </head>
+
+  <body>
+    <header id="mainHeadofPage">
+      <h1>AB Bakery</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Contacts</a></li>
+          <!--Dummy contacts for the page with zero contents-->
+        </ul>
+      </nav>
+    </header>
+    <div id="mainDiv">
+      <main class="mainContent">
+        <p>You and Us makes a Creamy Combo</p>
+      </main>
+      <div class="bakeryStyles">
+        <h2>We offer:</h2>
+        <ul>
+          <li>Donought ......$3</li>
+          <li>Cakes ......$10</li>
+          <li>Tea ......$5</li>
+          <li>Muffin ......$4</li>
+          <li>Pizzas ......$8</li>
+        </ul>
+      </div>
+    </div>
+    <section class="additionalContent">
+      <h2>Our Creations</h2>
+      <aside class="aside1"></aside>
+      <aside class="aside2"></aside>
+    </section>
+    <section class="cakeOrderForm">
+      <h2>Special Cake Request</h2>
+      <form action="./index.html" method="post" name="Cake Order Form" netlify>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            requred
+            placeholder="Aryan"
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            requred
+            placeholder="Bhattarai"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="email" id="email" name="email">Email</label>
+          <input type="email" required placeholder="aryanbhattarai@gmail.com" />
+        </fieldset>
+        <fieldset>
+          <legend>Select the Following to your Preference</legend>
+          <label><span>Cake Type</span></label>
+          <input
+            type="radio"
+            id="cakevanilla"
+            name="cakeType"
+            name="cakevanilla"
+            required
+          />
+          <label for="cakevanilla">Vanilla</label>
+          <input
+            type="radio"
+            id="cakechocolate"
+            name="cakeType"
+            name="cakechocolate"
+            required
+          />
+          <label for="cakechocolate">Chocolate</label>
+          <input
+            type="radio"
+            id="cakeblueberry"
+            name="cakeType"
+            name="cakeblueberry"
+            required
+          />
+          <label for="cakeblueberry">Blueberry</label>
+          <input
+            type="radio"
+            id="cakebanana"
+            name="cakeType"
+            name="cakebanana"
+            required
+          />
+          <label for="cakebanana">Banana</label>
+          <label for="extracakerequest"
+            >If any other request please specify</label
+          >
+          <input type="text" id="othercake" name="othercake" />
+        </fieldset>
+
+        <div>
+          <button id="submitButton">Submit</button>
+          <div class="popUp" id="popup">
+            <h3>Thanks you for the order.</h3>
+            <p>
+              We will send you the total price and the order summary shortly.
+            </p>
+            <button id="OkButton">Ok</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer class="lastPart">Copyright 2022 Aryan Bhattarai</footer>
+  </body>
+</html>

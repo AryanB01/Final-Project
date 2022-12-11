@@ -184,11 +184,13 @@
 #submitButton{
     font-size: 1.4em;
     padding: 0.5em 1.3em;
+   
     background-color: black;
     color: white;
     border-radius: 5px;
     transition: 0.25s;
     cursor: pointer;
+    margin: 2em;
 }
 #submitButton:hover{
     background-color: #31291e;

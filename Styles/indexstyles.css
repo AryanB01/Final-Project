@@ -193,7 +193,8 @@
 #submitButton:hover{
     background-color: #31291e;
 }
-.cakeOrderForm div{
+/* Message for the form submissing. */
+/* .cakeOrderForm div{
    
     width: 75%;
     text-align: center;
@@ -218,7 +219,8 @@
 }
 .popUp .show{
      visibility: visible;
-     top: 30%;
+     top: 50%;
+     text-align: center;
      
      
      
@@ -236,7 +238,7 @@
 }
 #OkButton:hover{
     background-color: #31291e;
-}
+} */
 
 footer {
     color: #fff;
